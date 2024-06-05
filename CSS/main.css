@@ -1,0 +1,145 @@
+
+
+
+
+
+
+/* Start home section */
+#home{
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(170, 165, 165, 0.3)), url('../images/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .home-overlay{
+    padding: 16px;
+}
+
+.home-overlay .home-content h3{
+    font-size: 70px;
+    color: rgb(49, 2, 49);
+    font-weight: 600;
+}
+.home-overlay .home-content p{
+    color: rgb(155, 24, 155);
+    font-size: 20px;
+}
+
+
+
+
+/* End home section */
+
+/* Start slider */
+.slider{
+    background-color: rgb(49, 2, 49);
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    left:-250px;
+    top: 0;
+    transition: all 0.2s;
+}
+.slider button{
+position: absolute;
+top: 10%;
+left: 90%;
+}
+.btn-close{
+    --bs-btn-close-focus-shadow: 0;
+}
+.slider li a{
+    text-decoration: none;
+    color: rgb(155, 24, 155);
+}
+
+.slider .openIcon{
+    position: absolute;
+    top: 50%;
+    /* left: 110%; */
+    right: -115px;
+    color: rgb(155, 24, 155);
+}
+
+
+
+/* End slider */
+
+
+/* Start SliderDown section */
+#slider-down, #counter{
+    margin-block: 100px;
+}
+
+#slider-down h3{
+    background-color: rgb(49, 2, 49);
+    padding-block: 10px;
+    color: rgb(155, 24, 155);
+    margin: 0 !important;
+    cursor: pointer;
+}
+#slider-down div{
+    background-color: gray;
+    padding: 5px;
+
+}
+
+#slider-down div:not(:first-child) {
+    display: none;
+}
+/* End SliderDown section */
+
+
+
+/* Start Counter section */
+#counter{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(146, 54, 111, 0.3)), url('../images/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#counter .row{
+    text-align: center;
+    padding: 150px;
+}
+.col-md-3 .time{
+    border: 2px solid rgb(155, 24, 155);
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(155, 24, 155);
+}
+/* End Counter section */
+
+
+#contact .head h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+#contact  p, .list-unstyled{
+    text-align: center;
+}
+#contact  p, .icons span i, ul li{
+    color: rgb(126, 123, 123);
+}
+
+#contact .icons span{
+    border: 1px solid rgb(141, 139, 139);
+    padding: 10px;
+    cursor: pointer;
+}
+#contact .icons span:hover{
+    background-color: #D62E33;
+    border: 0;
+}
+#contact .icons span:hover i{
+    color: white;
+}
